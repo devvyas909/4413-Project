@@ -1,0 +1,54 @@
+<!--  Utilizes the same Login.css file as Login.HTML -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="StyleSheet" href="Login.css" type="text/css" title="cse4413" media="screen, print"/>
+<meta charset="UTF-8">
+<title>Login Page</title>
+</head>
+<body>
+	<div class="login-page">
+
+	   	<div class="logo-container">
+			<img src="M&H-Logo.png" width="170" height="106" alt="Temporary logo for concept"><br/>
+		</div>
+	
+	    <div class="login-container">
+	        <h1>Sign Up</h1>
+	        <form action="#####" method="post" class="login-form"> <!-- *Update with servlet* -->
+	        
+	            <div class="input-group">
+	            	<label for="username">Username:</label>
+					<input type="text" name="username" required>
+	            </div>
+	            <div class="input-group">
+	            	<label for="email">Email:</label>
+					<input type="text" name="email" required>
+	            </div>
+	            <div class="input-group">
+	            	<label for="password">Password:</label>
+					<input type="password" name="password" required>
+	            </div>
+	            <div class="input-group">
+	            	<label for="passwordConfirm">Confirm Password:</label>
+					<input type="password" name="passwordConfirm" required>
+	            </div>
+	            
+	            <button type="submit" class="submit-btn">Sign Up</button><br/><br/>
+	            
+	            <div class="remember-me">
+	                <input type="checkbox" id="admin-signup" name="admin">
+	                <label for="admin-signup">Sign up as admin?</label>
+	            </div>
+	            <div class="input-group">
+	            	<label for="AdminSecCode">Enter Admin Security Code:</label>
+					<input type="text" name="AdminSecCode">
+	            </div>
+	           
+	         </form>
+        </div>
+        
+    </div>
+</body>
+</html>
