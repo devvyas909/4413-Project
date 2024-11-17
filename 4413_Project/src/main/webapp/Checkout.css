@@ -32,7 +32,7 @@ body {
 .page-spacing {
     width: 100%;
     max-width: 800px;
-    max-height: 1000px;
+    max-height: 1020px;
 }
 
 .logo-container {
@@ -57,12 +57,12 @@ body {
 }
 
 .input-group label {
-    margin-bottom: 5px;
     font-weight: bold;
     color: #555;
 }
 
 .input-group input {
+    margin-top: 4px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
