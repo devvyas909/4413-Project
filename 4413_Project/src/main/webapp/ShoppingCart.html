@@ -1,0 +1,140 @@
+<!--  This HTML file is associated with section H. Shopping Cart View -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="StyleSheet" href="ShoppingCart.css" type="text/css" title="cse4413" media="screen, print"/>
+<meta charset="UTF-8">
+<title>Shopping Cart Page</title>
+</head>
+<body>
+
+  <!-- Header Section -->
+  		<!-- Direct each button to appropriate page. Use form action if required -->
+  <header>
+    <img src="M&H-Logo.png" width="50" height="31" class="leftAlign"> <!-- TODO: make M&H icon direct to catalogue without messing up styles -->
+    <button onclick="window.location.href='catalogue.html'" class="buttonText">
+    	Shop Now
+    </button>
+    <button onclick="window.location.href='shoppingCart.html'">
+    	<img src="IconCart.png" width="30" height="30">
+    </button>
+    <button onclick="window.location.href='profile.html'">
+    	<img src="IconProfile.png" width="30" height="30">
+    </button>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    
+    	<!-- Shopping Cart Section -->
+    	<div class="cart-items">
+      	<h2>Your Shopping Bag</h2>
+
+	    <!-- Individual Cart Item Section -->
+	      	<!-- *Note: Add functionality to add more cart items as needed  -->
+	      
+	     	<!-- Individual Cart Item Example (Copy-paste) -->
+		    <div class="cart-item">
+		    	<div class="item-details">
+		          	<img src="https://via.placeholder.com/100" alt="Product Image">
+		          	<div>
+			            <span class="item-name">Product 1</span>
+			            <span class="item-price">$10.00</span>
+		          	</div>
+		        </div>
+		        <div class="item-quantity">
+		          	<span>Qty:</span>
+		          	<input type="number" value="1" min="1">
+		        </div>
+		    </div>
+	
+		    <!-- Individual Cart Item Example (Copy-paste) -->
+		    <div class="cart-item">
+		    	<div class="item-details">
+		          	<img src="https://via.placeholder.com/100" alt="Product Image">
+		          	<div>
+			            <span class="item-name">Product 1</span>
+			            <span class="item-price">$15.00</span>
+		          	</div>
+		        </div>
+		        <div class="item-quantity">
+		          	<span>Qty:</span>
+		          	<input type="number" value="1" min="1">
+		        </div>
+		    </div>
+		    
+		    <!-- Individual Cart Item Example (Copy-paste) -->
+		    <div class="cart-item">
+		    	<div class="item-details">
+		          	<img src="https://via.placeholder.com/100" alt="Product Image">
+		          	<div>
+			            <span class="item-name">Product 2</span>
+			            <span class="item-price">$25.00</span>
+		          	</div>
+		        </div>
+		        <div class="item-quantity">
+		          	<span>Qty:</span>
+		          	<input type="number" value="1" min="1">
+		        </div>
+		    </div>
+		    
+		    <!-- Individual Cart Item Example (Copy-paste) -->
+		    <div class="cart-item">
+		    	<div class="item-details">
+		          	<img src="https://via.placeholder.com/100" alt="Product Image">
+		          	<div>
+			            <span class="item-name">Product 3</span>
+			            <span class="item-price">$25.00</span>
+		          	</div>
+		        </div>
+		        <div class="item-quantity">
+		          	<span>Qty:</span>
+		          	<input type="number" value="1" min="1">
+		        </div>
+		    </div>
+		    
+		    <!-- Individual Cart Item Example (Copy-paste) -->
+		    <div class="cart-item">
+		    	<div class="item-details">
+		          	<img src="https://via.placeholder.com/100" alt="Product Image">
+		          	<div>
+			            <span class="item-name">Product 4</span>
+			            <span class="item-price">$40.00</span>
+		          	</div>
+		        </div>
+		        <div class="item-quantity">
+		          	<span>Qty:</span>
+		          	<input type="number" value="1" min="1">
+		        </div>
+		    </div>
+		
+		<!-- End of cart items -->    
+    	</div>
+
+    <!-- Subtotal Section -->
+    	<!-- * Note: Edit this to make values dynamic -->
+    <div class="subtotal">
+      	<h3>Order Summary</h3>
+      	<div>
+	        <span>Subtotal:</span>
+	        <label for="orderValueSubtotal">$50.00</label>
+      	</div>
+      	<div>
+	        <span>Shipping:</span>
+	        <label for="orderValueShipping">$5.00</label>
+      	</div>
+      	<div>
+	        <span>Tax:</span>
+	        <label for="orderValueTax">$4.50</label>
+      	</div>
+      	<div class="total">
+        	<span>Total:</span>
+        	<label for="orderValueTotal">$59.50</label>
+      	</div>
+      	<button class="checkout-button">Proceed to Checkout</button>
+   	</div>
+   	
+   </div>
+</body>
+</html>
