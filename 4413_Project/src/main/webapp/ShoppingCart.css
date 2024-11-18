@@ -126,6 +126,7 @@ header button {
    border-bottom: 1px solid #eee;
  }
 
+/* Removes the <hr> extra line for last item on the list. */
  .cart-item:last-child {
    border-bottom: none;
  }
@@ -135,8 +136,8 @@ header button {
  }
 
  .item-details img {
-   width: 50px;
-   height: 50px;
+   width: 75px;
+   height: 75px;
    object-fit: cover;
    margin-right: 15px;
  }
@@ -157,6 +158,7 @@ header button {
  .item-quantity {
    display: flex;
    align-items: center;
+   gap: 15px;
  }
 
  .item-quantity input {
