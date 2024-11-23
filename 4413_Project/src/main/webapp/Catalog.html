@@ -1,0 +1,122 @@
+<!--  This HTML file is associated with section B. Catalog View -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="StyleSheet" href="Catalog.css" type="text/css" title="cse4413" media="screen, print"/>
+<meta charset="UTF-8">
+<title>Catalog View</title>
+</head>
+<body>
+
+    <!-- Header Container -->
+    <div class="header">
+	    <!-- Left-aligned Logo -->
+	    <img src="M&H-Logo.png" width="50" height="31" class="logo leftAlign" onclick="window.location.href='catalogue.html'">
+	
+	    <!-- Centered Dropdowns and Search Bar -->
+	    <div class="header-container">
+	        <div class="dropdown">
+	            <span>Clothing</span>
+	            <div class="dropdown-menu">
+	                <a href="#">All Clothing</a>
+	                <a href="#">T-Shirts</a>
+	                <a href="#">Hoodies & Sweatshirts</a>
+	                <a href="#">Hats</a>
+	                <a href="#">Dresses</a>
+	                <a href="#">Leggings</a>
+	                <a href="#">Skirts</a>
+	            </div>
+	        </div>
+	        <div class="dropdown">
+	            <span>Type</span>
+	            <div class="dropdown-menu">
+	                <a href="#">All</a>
+	                <a href="#">Women's</a>
+	                <a href="#">Men's</a>
+	                <a href="#">Kid's</a>
+	            </div>
+	        </div>
+	        <div class="dropdown">
+	            <span>Brand</span>
+	            <div class="dropdown-menu">
+	                <a href="#">All Brands</a>
+	                <a href="#">Brand A</a>
+	                <a href="#">Brand B</a>
+	                <a href="#">Brand C</a>
+	                <a href="#">Brand D</a>
+	            </div>
+	        </div>
+	        <input type="text" id="search" placeholder="Search for items...">
+	    </div>
+	
+	    <!-- Right-aligned Buttons (Cart, Profile) -->
+	    <div class="header-buttons">
+	        <button class="buttonText" onclick="window.location.href='catalogue.html'">Shop Now</button>
+	        <button onclick="window.location.href='shoppingCart.html'">
+	            <img src="IconCart.png" width="30" height="30">
+	        </button>
+	        <button onclick="window.location.href='profile.html'">
+	            <img src="IconProfile.png" width="30" height="30">
+	        </button>
+		</div>
+	</div>
+
+    <!-- Main Content Section (Catalog) -->
+    <div class="content">
+        <!-- Catalogue View -->
+        <div class="catalogue">
+            <!-- Catalogue Item 1 -->
+            <div class="catalogue-item">
+                <img src="https://via.placeholder.com/200x250" alt="T-shirt Image">
+                <h3>T-Shirt Name</h3>
+                <p class="brand">Brand A</p>
+                <p class="price">$25.00</p>
+            </div>
+
+            <!-- Catalogue Item 2 -->
+            <div class="catalogue-item">
+                <img src="https://via.placeholder.com/200x250" alt="Hoodie Image">
+                <h3>Hoodie Name</h3>
+                <p class="brand">Brand B</p>
+                <p class="price">$45.00</p>
+            </div>
+
+            <!-- Catalogue Item 3 -->
+            <div class="catalogue-item">
+                <img src="https://via.placeholder.com/200x250" alt="Leggings Image">
+                <h3>Leggings Name</h3>
+                <p class="brand">Brand C</p>
+                <p class="price">$35.00</p>
+            </div>
+
+            <!-- Catalogue Item 4 -->
+            <div class="catalogue-item">
+                <img src="https://via.placeholder.com/200x250" alt="Dress Image">
+                <h3>Dress Name</h3>
+                <p class="brand">Brand D</p>
+                <p class="price">$55.00</p>
+            </div>
+
+            <!-- Catalogue Item 5 -->
+            <div class="catalogue-item">
+                <img src="https://via.placeholder.com/200x250" alt="Skirt Image">
+                <h3>Skirt Name</h3>
+                <p class="brand">Brand A</p>
+                <p class="price">$30.00</p>
+            </div>
+
+            <!-- Catalogue Item 6 (starts a new row) -->
+            <div class="catalogue-item">
+                <img src="https://via.placeholder.com/200x250" alt="Hat Image">
+                <h3>Hat Name</h3>
+                <p class="brand">Brand B</p>
+                <p class="price">$20.00</p>
+            </div>
+
+            <!-- Include More Items as needed (Loop & database?) -->
+        </div>
+    </div>
+
+</body>
+</html>
